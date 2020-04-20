@@ -14,6 +14,7 @@ layout:
 plugs:
   opengl:
   wayland:
+  network-bind: # Needed (NOT the x11 slot) to serve X11
 
 parts:
   xwayland-kiosk-helper:
